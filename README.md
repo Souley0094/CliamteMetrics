@@ -1,1 +1,1 @@
-# CliamteMetrics
+# ClimateMetrics
