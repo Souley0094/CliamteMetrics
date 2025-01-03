@@ -49,9 +49,6 @@ temp_alb <- function(RF) {
   return(dT[1:(TH + 1)])
 }
 
-for (crop in dT) {
-  dT[crop] <- temp_alb(rep(RF_a[RF_a$Period == crop, "RF_global"], cultivation)) # 1-100 years
-}
 
 
 
